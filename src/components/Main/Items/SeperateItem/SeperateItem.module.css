@@ -1,0 +1,30 @@
+.seperate-item {
+  box-sizing: border-box;
+  background-color: white;
+  width: 30%;
+  border: 1px solid black;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+.seperate-item button {
+  background-color: #2f2e41;
+  border-radius: 10rem;
+  color: white;
+  border: none;
+  width: 4rem;
+  margin: 1rem auto;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.seperate-item button:hover {
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  .seperate-item {
+    width: 60%;
+    margin: 0.7rem auto;
+  }
+}

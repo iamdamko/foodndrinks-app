@@ -1,0 +1,50 @@
+.filterWrapper {
+  box-sizing: border-box;
+  display: flex;
+  background-color: #e6e6e6;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.filterWrapper button {
+  margin-top: 1rem;
+  border-radius: 3.125rem;
+  border: none;
+  margin-bottom: 0.2rem;
+  cursor: pointer;
+  background-color: #2f2e41;
+  padding: 1.5rem;
+  width: 20%;
+  margin-right: 0.7rem;
+  color: white;
+  font-size: 1rem;
+}
+
+.filterWrapper button:hover {
+  background-color: black;
+}
+
+@media (max-width: 600px) {
+  .filterWrapper button {
+    width: 70%;
+    margin: 0.3rem auto;
+    padding: 0.5rem;
+  }
+  .filterWrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .filterWrapper button {
+    width: 70%;
+    margin: 0.3rem auto;
+    padding: 0.5rem;
+  }
+  .filterWrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+}

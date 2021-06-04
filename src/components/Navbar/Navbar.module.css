@@ -1,0 +1,13 @@
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: black;
+  padding: 0 2rem;
+}
+
+.logo {
+  color: white;
+}
